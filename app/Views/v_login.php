@@ -24,8 +24,8 @@ $password = [
 
               <div class="d-flex justify-content-center py-4">
                 <a href="index.html" class="logo d-flex align-items-center w-auto">
-                  <img src="<?php echo base_url() ?>NiceAdmin/assets/img/logo.png" alt="">
-                  <span class="d-none d-lg-block">Toko</span>
+                  <img src="<?php echo base_url() ?>NiceAdmin/assets/img/logo1.png" alt="">
+                  <span class="d-none d-lg-block">Burjo 5758</span>
                 </a>
               </div><!-- End Logo -->
 

@@ -24,19 +24,6 @@ class Transaction extends Migration
                 'type' => 'DOUBLE',
                 'null' => FALSE,
             ],
-            'alamat' => [
-                'type' => 'TEXT',
-                'null' => FALSE,
-            ],
-            'ongkir' => [
-                'type' => 'DOUBLE',
-                'null' => TRUE
-            ],
-            'status' => [
-                'type' => 'INT',
-                'constraint' => 1,
-                'null' => FALSE,
-            ],
             'created_at' => [
                 'type' => 'datetime',
                 'null' => TRUE

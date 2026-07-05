@@ -11,12 +11,12 @@ if(uri_string()!=""){
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>- Toko - <?php echo $hlm ?></title> 
+  <title>- Toko Saya - <?php echo $hlm ?></title> 
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="<?= base_url()?>NiceAdmin/assets/img/favicon.png" rel="icon">
+  <link href="<?= base_url()?>NiceAdmin/assets/img/logo1.png" rel="icon">
   <link href="<?= base_url()?>NiceAdmin/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -53,7 +53,7 @@ if(uri_string()!=""){
   <main id="main" class="main">
 
     <div class="pagetitle">
-      <h1>Data Tables</h1>
+      <h1><?php echo $hlm ?></h1>
       <nav>
         <ol class="breadcrumb">
           <li class="breadcrumb-item">Home</li>
